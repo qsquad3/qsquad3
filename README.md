@@ -1,7 +1,7 @@
 # SRE BootCamp PROJETO FINAL
 ![Imagem3](https://user-images.githubusercontent.com/111643131/191142631-955ad9a0-908d-470b-b655-af0431288f75.jpg)
 
-## Definiç!ao dos Objetivos:
+## Definição dos Objetivos:
 
 A criação de uma soluçao que que utiliza ferramentas e conceitos apresentados ao longo do bootcamp, ou similares, para aumento da confiabilidade de uma aplicação, focando em processo de deployment, automação, escalabilidade e observabilidade.
 
@@ -75,11 +75,13 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+## Authors 
+![Small](https://user-images.githubusercontent.com/111643131/191145275-c558c687-5e40-4033-9125-f919bce3ae2f.jpg)
+* Cesar Gustavo da Silva Godinho
+* Claudia Jugue
+* Fabiano Cesar Gaspar
+* Gabriel Mariusso Caldeira
+* Thiago Felipe de Andrade
 
 ## License
 
