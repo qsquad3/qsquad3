@@ -104,3 +104,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 * Inspiration
 * etc
 
+> Status do Projeto: Concluido :heavy_check_mark:
+> 
+> Status do Projeto: Em desenvolvimento :warning:
+
