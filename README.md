@@ -1,5 +1,6 @@
-# SRE BootCamp PROJETO FINAL
-![Imagem3](https://user-images.githubusercontent.com/111643131/191142631-955ad9a0-908d-470b-b655-af0431288f75.jpg)
+<h1 align="center"> SRE BootCamp PROJETO FINAL </h1>
+
+![Imagem3](https://user-images.githubusercontent.com/111643131/191147873-c99b81ca-22a0-48ea-8bd1-c586ff2152d6.jpg)
 
 ## Definição dos Objetivos:
 
