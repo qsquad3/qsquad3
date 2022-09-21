@@ -13,14 +13,36 @@ A criação de uma soluçao que que utiliza ferramentas e conceitos apresentados
 * CONFIABILIDADE;
 
 ## INFRAESTRUTURA e REDE
+## Infraestrutura Kubernetes
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXX
+A estrutura compõe-se de 3 hosts, sendo 1 MASTER e 2 WORKERS.
+A implantação da estrutura é feita via Terraform, configurando automaticamente o host MASTER e efetuando JOIN dos dois hosts WORKERS.
+Nesta estrutura será armazenado a aplicação Python.
 
-```
-XXX
-XXX
-XXX
-```
+- ISTIO
+- Kiali (precisa expor a porta 20001 no kubernetes)
+- DataDog (Cloud Version)
+
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
+![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+
+## Infraestrutura Docker
+
+A estrutura compõe-se de 1 host, sendo Docker Server.
+Nesta estrutura estamos subindo as ferramentas de modo automatizado, sendo elas:
+- Jenkins (ippublico-instancia-docker:8084)
+- Grafana/Prometheus/Loki/Tempo (ippublico-instancia-docker:3000)
+- Adminer (Adminstração PGSQL - Porta 8181)
+
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
+![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
+![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
+
 
 ## APLICAÇÃO e DEPLOYMENT
 
