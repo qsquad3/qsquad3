@@ -51,6 +51,10 @@ Nesta estrutura estamos subindo as ferramentas de modo automatizado, sendo elas:
 - O build da imagem da aplicação é feita via CICD GitHub Action após um push no repositório "final-project-application"
 - Acesso aplicação (ippublico-instancia-kubernetes:8500)
 
+### Representação Gráfica do fluxo da aplicação:
+```
+XXX PENDENTE ADD IMAGEM
+```
 
 ## OBSERVABILIDADE
 
