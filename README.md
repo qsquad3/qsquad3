@@ -46,13 +46,11 @@ Nesta estrutura estamos subindo as ferramentas de modo automatizado, sendo elas:
 
 ## APLICAÇÃO e DEPLOYMENT
 
-Representação Gráfica do fluxo da aplicação;
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-```
-XXX
-XXX
-XXX
-```
+- O build da imagem da aplicação é feita via CICD GitHub Action após um push no repositório "final-project-application"
+- Acesso aplicação (ippublico-instancia-kubernetes:8500)
+
 
 ## OBSERVABILIDADE
 
@@ -84,41 +82,17 @@ XXX
 XXX
 ```
 
-## And coding style tests
-
-Explain what these tests test and why
-
-```
-XXX
-XXX
-XXX
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-### Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-### Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
 ### Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ### Autores
 ![Small](https://user-images.githubusercontent.com/111643131/191145275-c558c687-5e40-4033-9125-f919bce3ae2f.jpg)
-* Cesar Gustavo da Silva Godinho
-* Claudia Jugue
-* Fabiano Cesar Gaspar
-* Gabriel Mariusso Caldeira
-* Thiago Felipe de Andrade
+- Claudia Jugue [<p align="left"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></p>](https://www.linkedin.com/in/claudia-jugue/)
+- Fabiano Cesar Gaspar [<p align="left"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></p>](https://www.linkedin.com/in/thiago-felipe-de-andrade-932aab5/)
+- Gabriel Mariusso [<p align="left"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></p>](https://www.linkedin.com/in/gabriel-mariusso/)
+- Thiago Felipe de Andrade [<p align="left"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></p>](https://www.linkedin.com/in/thiago-felipe-de-andrade-932aab5/)
+- Tânia Silva [<p align="left"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></p>](https://www.linkedin.com/in/taniass/)
 
 ## Acknowledgments
 
