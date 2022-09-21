@@ -68,27 +68,28 @@ XXX
 
 ## MELHORES PRÁTICAS
 - Definir e implementar uma estratégia de backup e restore;
-
-Definir alertas para monitorar as métricas da aplicação:
-- como disponibilidade da aplicação e banco de dados; - disponibilidade da aplicação e tempo de resposta; 
-- quantidade de requests com stauts code diferente de 200;
 - Monitoramento em todos os ativos do ambiente;
 
+Definir alertas para monitorar as métricas da aplicação:
+- como disponibilidade da aplicação e banco de dados; 
+- disponibilidade da aplicação e tempo de resposta; 
+- quantidade de requests com stauts code diferente de 200;
+
 ```
-XXX
-XXX
 XXX
 ```
 
 ## CONFIABILIDADE
-
-XXXXXXXXXXXXXXXXXXXXXXXXXXX
+Ações para aumento da disponibilidade medida da aplicação e ativos.
 
 ```
-XXX
-XXX
-XXX
+1.
+2.
+3.
+4.
+5.
 ```
+
 ## PLANO DE CONTINUIDADE
 Quais seriam os próximos passos para melhorar a infraestrutura da aplicação?
 
