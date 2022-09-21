@@ -101,6 +101,6 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
