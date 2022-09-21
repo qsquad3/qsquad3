@@ -13,7 +13,7 @@ A criação de uma soluçao que que utiliza ferramentas e conceitos apresentados
 * CONFIABILIDADE;
 
 ## INFRAESTRUTURA e REDE
-## Infraestrutura Kubernetes
+### Infraestrutura Kubernetes
 
 A estrutura compõe-se de 3 hosts, sendo 1 MASTER e 2 WORKERS.
 A implantação da estrutura é feita via Terraform, configurando automaticamente o host MASTER e efetuando JOIN dos dois hosts WORKERS.
@@ -28,7 +28,7 @@ Nesta estrutura será armazenado a aplicação Python.
 ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
 ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
-## Infraestrutura Docker
+### Infraestrutura Docker
 
 A estrutura compõe-se de 1 host, sendo Docker Server.
 Nesta estrutura estamos subindo as ferramentas de modo automatizado, sendo elas:
@@ -81,9 +81,17 @@ XXX
 XXX
 XXX
 ```
+## DESAFIOS / AJUSTES FUTUROS
 
-### Versioning
+XXXXXXXXXXXXXXXXXXXXXXXXXXX
 
+```
+XXX
+XXX
+XXX
+```
+
+## Versioning
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Autores
