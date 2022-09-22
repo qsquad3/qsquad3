@@ -20,6 +20,9 @@ A implantação da estrutura é feita via Terraform, configurando automaticament
 Nesta estrutura será armazenado a aplicação Python.
 O Armazenamento de nossa imagem docker da aplicação de PRODUÇÃO e DESENVOLVIMENTO foi armazenado no DockerHub
 
+![image](https://user-images.githubusercontent.com/111643131/191832846-14479b87-e34f-4d14-b6f2-02e55571b137.png)
+
+
 - ISTIO (sem aplicação)
 - Kiali (precisa expor a porta 20001 no kubernetes)
 - DataDog (Cloud Version)
