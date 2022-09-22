@@ -19,7 +19,7 @@ A estrutura compõe-se de 3 hosts, sendo 1 MASTER e 2 WORKERS.
 A implantação da estrutura é feita via Terraform, configurando automaticamente o host MASTER e efetuando JOIN dos dois hosts WORKERS.
 Nesta estrutura será armazenado a aplicação Python.
 
-- ISTIO
+- ISTIO (sem aplicação)
 - Kiali (precisa expor a porta 20001 no kubernetes)
 - DataDog (Cloud Version)
 
@@ -34,7 +34,8 @@ A estrutura compõe-se de 1 host, sendo Docker Server.
 Nesta estrutura estamos subindo as ferramentas de modo automatizado, sendo elas:
 - Jenkins (ippublico-instancia-docker:8084)
 - Grafana/Prometheus/Loki/Tempo (ippublico-instancia-docker:3000)
-- Adminer (Adminstração PGSQL - Porta 8181)
+- Adminer (Adminstração PGSQL Produção - Porta 8181)
+- Adminer (Adminstração PGSQL Desenvolvimento - Porta 8282)
 
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
@@ -49,7 +50,8 @@ Nesta estrutura estamos subindo as ferramentas de modo automatizado, sendo elas:
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 - O build da imagem da aplicação é feita via CICD GitHub Action após um push no repositório "final-project-application"
-- Acesso aplicação (ippublico-instancia-kubernetes:8500)
+- Acesso Aplicação Produção (ippublico-instancia-kubernetes:8500)
+- Acesso Aplicação Desenvolvimento (ippublico-instancia-kubernetes:8501)
 
 ### Representação Gráfica do fluxo da aplicação:
 ```
