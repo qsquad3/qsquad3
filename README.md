@@ -71,9 +71,9 @@ XXX PENDENTE ADD IMAGEM
 
 ```
 Golden Signals
-- Latencia;
+- Latência;
 - Erros;
-- Trafico;
+- Tráfego;
 - Saturação;
 ```
 
