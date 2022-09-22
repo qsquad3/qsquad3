@@ -18,6 +18,7 @@ A criação de uma soluçao que que utiliza ferramentas e conceitos apresentados
 A estrutura compõe-se de 3 hosts, sendo 1 MASTER e 2 WORKERS.
 A implantação da estrutura é feita via Terraform, configurando automaticamente o host MASTER e efetuando JOIN dos dois hosts WORKERS.
 Nesta estrutura será armazenado a aplicação Python.
+O Armazenamento de nossa imagem docker da aplicação de PRODUÇÃO e DESENVOLVIMENTO foi armazenado no DockerHub
 
 - ISTIO (sem aplicação)
 - Kiali (precisa expor a porta 20001 no kubernetes)
