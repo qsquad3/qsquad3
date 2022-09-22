@@ -86,9 +86,9 @@ XXX
 Ações para aumento da disponibilidade medida da aplicação e ativos.
 
 ```
-1.
-2.
-3.
+1. Tolerancia a Falhas: uso de réplicas;
+2. 
+3. 
 4.
 5.
 ```
