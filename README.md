@@ -58,7 +58,8 @@ XXX PENDENTE ADD IMAGEM
 
 ## OBSERVABILIDADE
 
-Grafana: http://35.153.185.39:3000/
+- Prometheus: http://54.243.22.130:9090/targets
+- Grafana: http://35.153.185.39:3000/
 
 ```
 Golden Signals
