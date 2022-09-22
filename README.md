@@ -58,12 +58,14 @@ XXX PENDENTE ADD IMAGEM
 
 ## OBSERVABILIDADE
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXX
+Grafana: http://35.153.185.39:3000/
 
 ```
-XXX
-XXX
-XXX
+Golden Signals
+- Latencia;
+- Erros;
+- Trafico;
+- Saturação;
 ```
 
 ## MELHORES PRÁTICAS
