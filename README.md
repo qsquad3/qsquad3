@@ -60,8 +60,8 @@ XXX PENDENTE ADD IMAGEM
 
 ## OBSERVABILIDADE
 
-- Prometheus: http://54.243.22.130:9090/targets
-- Grafana: http://35.153.185.39:3000/
+- Prometheus: http://ippublicodockerserver:9090/targets
+- Grafana: http://ippublicodockerserver:3000/
 
 ```
 Golden Signals
