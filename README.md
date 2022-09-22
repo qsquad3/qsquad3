@@ -18,6 +18,8 @@ A criação de uma soluçao que que utiliza ferramentas e conceitos apresentados
 A estrutura compõe-se de 3 hosts, sendo 1 MASTER e 2 WORKERS.
 A implantação da estrutura é feita via Terraform, configurando automaticamente o host MASTER e efetuando JOIN dos dois hosts WORKERS.
 Nesta estrutura será armazenado a aplicação Python.
+![image](https://user-images.githubusercontent.com/111643131/191832991-9f42b1e3-4141-43d7-b3e3-e644494e2849.png)
+
 O Armazenamento de nossa imagem docker da aplicação de PRODUÇÃO e DESENVOLVIMENTO foi armazenado no DockerHub
 
 ![image](https://user-images.githubusercontent.com/111643131/191832846-14479b87-e34f-4d14-b6f2-02e55571b137.png)
