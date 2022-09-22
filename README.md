@@ -1,4 +1,4 @@
-<h1 align="center"> SRE BootCamp PROJETO FINAL </h1>
+<h1 align="center"> QUODE SRE BootCamp PROJETO FINAL - Squad3 </h1>
 
 ![Banner](https://user-images.githubusercontent.com/111643131/191636003-23204e01-bdc0-40ad-be32-206825b752ec.jpg)
 
