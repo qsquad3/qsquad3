@@ -102,6 +102,8 @@ Ações para aumento da disponibilidade medida da aplicação e ativos.
 ## PLANO DE CONTINUIDADE
 Quais serão os próximos passos para melhorar a infraestrutura da aplicação?
 
+![FlowLife](https://user-images.githubusercontent.com/111643131/192025950-7eeb9807-0105-4ab0-aaa0-91ddbb34e193.JPG)
+
 ```
 - Colocar o banco de dados no RDS;
 - Colocar a imagem da aplicação no ECR AWS;
