@@ -96,9 +96,13 @@ Ações para aumento da disponibilidade medida da aplicação e ativos.
 
 ```
 1. Tolerancia a Falhas: uso de réplicas;
-2. 
-3. 
-4.
+2. Teste de Engenharia do Caos;
+3. Plano de Recuperação de Desastres;
+4. Métricas: 
+MTBF: tempo médio antes da falha;
+MTTR: tempo médio para recuperação, para reparos, de resposta ou para a resolução;
+MTTA: tempo médio para confirmação;
+MTTF: tempo médio sem falhas;
 5.
 ```
 
