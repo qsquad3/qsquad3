@@ -60,9 +60,8 @@ Nesta estrutura estamos subindo as ferramentas de modo automatizado, sendo elas:
 - Acesso Aplicação Desenvolvimento (ippublico-instancia-kubernetes:8501)
 
 ### Representação Gráfica do fluxo da aplicação:
-```
-XXX PENDENTE ADD IMAGEM
-```
+
+![DrawApplicationQuode](https://user-images.githubusercontent.com/111643131/191882712-b75f3c1a-1ac1-4db2-9b1a-0ee8f338555d.png)
 
 ## OBSERVABILIDADE
 
