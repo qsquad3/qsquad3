@@ -50,6 +50,9 @@ Nesta estrutura estamos subindo as ferramentas de modo automatizado, sendo elas:
 
 ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
 
+## ARQUITETURA DA SOLUÇÃO
+
+<img width="574" alt="arquitetura-solucao" src="https://user-images.githubusercontent.com/111643131/192026704-dd1186fd-1311-415f-b9fc-805d6405f330.png">
 
 ## APLICAÇÃO e DEPLOYMENT
 
