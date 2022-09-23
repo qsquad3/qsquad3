@@ -55,7 +55,7 @@ Nesta estrutura estamos subindo as ferramentas de modo automatizado, sendo elas:
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-- O build da imagem da aplicação é feita via CICD GitHub Action após um push no repositório "final-project-application"
+- O build da imagem da aplicação é feita via CI/CD GitHub Action após um push no repositório "final-project-application"
 - Acesso Aplicação Produção (ippublico-instancia-kubernetes:8500)
 - Acesso Aplicação Desenvolvimento (ippublico-instancia-kubernetes:8501)
 
