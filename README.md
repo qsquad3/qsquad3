@@ -4,13 +4,13 @@
 
 ## Definição dos Objetivos:
 
-A criação de uma soluçao que que utiliza ferramentas e conceitos apresentados ao longo do bootcamp, ou similares, para aumento da confiabilidade de uma aplicação, focando em processo de deployment, automação, escalabilidade e observabilidade.
+A criação de uma solução que que utiliza ferramentas e conceitos apresentados ao longo do Bootcamp, ou similares, para aumento da confiabilidade de uma aplicação, focando em processo de deployment, automação, escalabilidade e observabilidade.
 
 * INFRAESTRUTURA e REDE;
 * APLICAÇÃO e DEPLOYMENT - Representação Gráfica do fluxo da aplicação;
 * OBSERVABILIDADE;
 * MELHORES PRÁTICAS;
-* CONFIABILIDADE;
+* CONFIABILIDADE.
 
 ## INFRAESTRUTURA e REDE
 ### Infraestrutura Kubernetes
@@ -26,7 +26,7 @@ O Armazenamento de nossa imagem docker da aplicação de PRODUÇÃO e DESENVOLVI
 
 
 - ISTIO (sem aplicação)
-- Kiali (precisa expor a porta 20001 no kubernetes)
+- Kiali (precisa expor a porta 20001 no Kubernetes)
 - DataDog (Cloud Version)
 
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
@@ -58,7 +58,7 @@ Nesta estrutura estamos subindo as ferramentas de modo automatizado, sendo elas:
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-- O build da imagem da aplicação é feita via CI/CD GitHub Action após um push no repositório "final-project-application"
+- O build da imagem da aplicação é feita via CI/CD GitHub Action após um push no repositório "final-project-application".
 - Acesso Aplicação Produção (ippublico-instancia-kubernetes:8500)
 - Acesso Aplicação Desenvolvimento (ippublico-instancia-kubernetes:8501)
 
@@ -73,19 +73,20 @@ Nesta estrutura estamos subindo as ferramentas de modo automatizado, sendo elas:
 
 ```
 Golden Signals
+
 - Latência;
 - Erros;
 - Tráfego;
-- Saturação;
+- Saturação
 ```
 
 ## MELHORES PRÁTICAS
 - Monitoramento em todos os ativos do ambiente;
 
-Definir alertas para monitorar as métricas da aplicação:
-- como disponibilidade da aplicação e banco de dados; 
+Definição de alertas para monitorar as métricas da aplicação:
+- disponibilidade da aplicação e banco de dados; 
 - disponibilidade da aplicação e tempo de resposta; 
-- quantidade de requests com stauts code diferente de 200;
+- quantidade de requests com status code diferente de 200;
 
 ```
 - Definição de agendamento de backup via "aws backup" usando Terraform;
@@ -95,7 +96,7 @@ Definir alertas para monitorar as métricas da aplicação:
 Ações para aumento da disponibilidade medida da aplicação e ativos.
 
 ```
-1. Tolerancia a Falhas: uso de réplicas;
+1. Tolerância a Falhas: uso de réplicas;
 2. Teste de Engenharia do Caos;
 3. Plano de Recuperação de Desastres;
 4. Métricas: 
@@ -112,8 +113,9 @@ Quais serão os próximos passos para melhorar a infraestrutura da aplicação?
 ![FlowLife](https://user-images.githubusercontent.com/111643131/192025950-7eeb9807-0105-4ab0-aaa0-91ddbb34e193.JPG)
 
 ```
-- Colocar o banco de dados no RDS;
-- Colocar a imagem da aplicação no ECR AWS;
+- Colocar o banco de dados na AWS RDS;
+- Colocar a imagem da aplicação na Amazon ECR;
+- Configuração de acesso via VPN.
 ```
 
 ## Autores
