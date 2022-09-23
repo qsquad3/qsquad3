@@ -77,7 +77,6 @@ Golden Signals
 ```
 
 ## MELHORES PRÁTICAS
-- Definir e implementar uma estratégia de backup e restore;
 - Monitoramento em todos os ativos do ambiente;
 
 Definir alertas para monitorar as métricas da aplicação:
@@ -86,7 +85,7 @@ Definir alertas para monitorar as métricas da aplicação:
 - quantidade de requests com stauts code diferente de 200;
 
 ```
-XXX
+- Definição de agendamento de backup via "aws backup" usando Terraform;
 ```
 
 ## CONFIABILIDADE
@@ -107,9 +106,6 @@ Quais serão os próximos passos para melhorar a infraestrutura da aplicação?
 - Colocar o banco de dados no RDS;
 - Colocar a imagem da aplicação no ECR AWS;
 ```
-
-## Versioning
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Autores
 - Claudia Jugue [<p align="left"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></p>](https://www.linkedin.com/in/claudia-jugue/)  
