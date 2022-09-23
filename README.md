@@ -65,8 +65,8 @@ Nesta estrutura estamos subindo as ferramentas de modo automatizado, sendo elas:
 
 ## OBSERVABILIDADE
 
-- Prometheus: http://(ippublicodockerserver):9090/targets
-- Grafana: http://(ippublicodockerserver):3000/
+- Prometheus
+- Grafana
 
 ```
 Golden Signals
