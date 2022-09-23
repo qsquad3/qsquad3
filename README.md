@@ -101,14 +101,11 @@ Ações para aumento da disponibilidade medida da aplicação e ativos.
 ```
 
 ## PLANO DE CONTINUIDADE
-Quais seriam os próximos passos para melhorar a infraestrutura da aplicação?
-
-XXXXXXXXXXXXXXXXXXXXXXXXXXX
+Quais serão os próximos passos para melhorar a infraestrutura da aplicação?
 
 ```
-XXX
-XXX
-XXX
+- Colocar o banco de dados no RDS;
+- Colocar a imagem da aplicação no ECR AWS;
 ```
 
 ## Versioning
