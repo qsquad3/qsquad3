@@ -20,7 +20,7 @@ A implantação da estrutura é feita via Terraform, configurando automaticament
 Nesta estrutura será armazenado a aplicação Python.
 ![image](https://user-images.githubusercontent.com/111643131/191832991-9f42b1e3-4141-43d7-b3e3-e644494e2849.png)
 
-O Armazenamento de nossa imagem docker da aplicação de PRODUÇÃO e DESENVOLVIMENTO foi armazenado no DockerHub
+A imagem docker da aplicação de PRODUÇÃO e DESENVOLVIMENTO foi armazenada no DockerHub
 
 ![image](https://user-images.githubusercontent.com/111643131/191832846-14479b87-e34f-4d14-b6f2-02e55571b137.png)
 
@@ -89,22 +89,23 @@ Definição de alertas para monitorar as métricas da aplicação:
 - quantidade de requests com status code diferente de 200;
 
 ```
-- Definição de agendamento de backup via "aws backup" usando Terraform;
+Definição de agendamento de backup via "AWS Backup" usando Terraform;
 ```
 
 ## CONFIABILIDADE
 Ações para aumento da disponibilidade medida da aplicação e ativos.
 
 ```
-1. Tolerância a Falhas: uso de réplicas;
-2. Teste de Engenharia do Caos;
-3. Plano de Recuperação de Desastres;
-4. Métricas: 
+1. Implantação de um ciclo de desenvolvimento padronizado;
+2. Tolerância a Falhas: uso de réplicas;
+3. Teste de Engenharia do Caos;
+4. Plano de Recuperação de Desastres;
+5. Métricas: 
 MTBF: tempo médio antes da falha;
 MTTR: tempo médio para recuperação, para reparos, de resposta ou para a resolução;
 MTTA: tempo médio para confirmação;
 MTTF: tempo médio sem falhas;
-5.
+
 ```
 
 ## PLANO DE CONTINUIDADE
