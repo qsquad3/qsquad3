@@ -105,7 +105,6 @@ MTBF: tempo médio antes da falha;
 MTTR: tempo médio para recuperação, para reparos, de resposta ou para a resolução;
 MTTA: tempo médio para confirmação;
 MTTF: tempo médio sem falhas;
-
 ```
 
 ## PLANO DE CONTINUIDADE
